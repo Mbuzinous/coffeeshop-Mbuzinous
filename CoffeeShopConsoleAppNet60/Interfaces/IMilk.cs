@@ -1,4 +1,4 @@
-﻿namespace CoffeeShopConsoleAppNet60
+﻿namespace CoffeeShopConsoleAppNet60.Interfaces
 {
     public interface IMilk
     {
