@@ -2,6 +2,6 @@
 {
     public class Espresso : Coffee
     {
-        public Espresso() : base(15, "Very Strong", "Espresso") { }
+        public Espresso() : base(15, "Strong", "Espresso") { }
     }
 }

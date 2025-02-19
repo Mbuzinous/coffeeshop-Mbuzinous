@@ -2,7 +2,7 @@
 {
     public class Americano : Coffee
     {
-        public Americano() : base(20, "Very Strong", "Americano") { }
+        public Americano() : base(20, "Strong", "Americano") { }
 
     }
 }
