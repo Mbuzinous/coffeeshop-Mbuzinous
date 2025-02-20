@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CoffeeShopConsoleAppNet60.Interfaces;
 
 namespace CoffeeShopConsoleAppNet60.Coffees.MilkCoffees.Test
 {
@@ -12,15 +13,29 @@ namespace CoffeeShopConsoleAppNet60.Coffees.MilkCoffees.Test
     public class IceLatteTests
     {
         [TestMethod()]
-        public void IceLatteTest()
+        public void IceLatte_Name_Test()
         {
-            Assert.Fail();
+            //Arrange
+            Coffee iceLatte = new IceLatte();
+
+            //Act
+            string result = iceLatte.CoffeeName;
+
+            //Assert
+            Assert.AreEqual("IceLatte", result);
         }
 
         [TestMethod()]
-        public void MlMilkTest()
+        public void IceLatte_Implements_IMilk_Test()
         {
-            Assert.Fail();
+            //Arrange
+            Coffee iceLatte = new IceLatte();
+
+            //Act
+            IMilk result = (IMilk)iceLatte;
+
+            //Assert
+            Assert.Equals(iceLatte, result);
         }
     }
 }

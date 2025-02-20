@@ -12,9 +12,16 @@ namespace CoffeeShopConsoleAppNet60.Coffees.BlackCoffees.Test
     public class EspressoTests
     {
         [TestMethod()]
-        public void EspressoTest()
+        public void Espresso_Name_Test()
         {
-            Assert.Fail();
+            //Arrange
+            Coffee espresso = new Espresso();
+
+            //Act
+            string result = espresso.CoffeeName;
+
+            //Assert
+            Assert.AreEqual("Espresso", result);
         }
     }
 }
