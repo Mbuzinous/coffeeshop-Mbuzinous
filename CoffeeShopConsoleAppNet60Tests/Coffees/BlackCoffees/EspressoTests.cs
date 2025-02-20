@@ -1,18 +1,18 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CoffeeShopConsoleAppNet60;
+using CoffeeShopConsoleAppNet60.Coffees.BlackCoffees;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoffeeShopConsoleAppNet60.Test
+namespace CoffeeShopConsoleAppNet60.Coffees.BlackCoffees.Test
 {
     [TestClass()]
-    public class CoffeeTests
+    public class EspressoTests
     {
         [TestMethod()]
-        public void StrengthTest()
+        public void EspressoTest()
         {
             Assert.Fail();
         }

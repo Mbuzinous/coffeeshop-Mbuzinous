@@ -21,7 +21,7 @@ namespace CoffeeShopConsoleAppNet60.CoffeeMachine
             }
         }
 
-        private Coffee CreateCoffee(int number)
+        public Coffee CreateCoffee(int number)
         {
             switch (number)
             {

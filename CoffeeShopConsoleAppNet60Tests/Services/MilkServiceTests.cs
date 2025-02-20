@@ -1,18 +1,18 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CoffeeShopConsoleAppNet60;
+using CoffeeShopConsoleAppNet60.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoffeeShopConsoleAppNet60.Test
+namespace CoffeeShopConsoleAppNet60.Services.Test
 {
     [TestClass()]
-    public class CoffeeTests
+    public class MilkServiceTests
     {
         [TestMethod()]
-        public void StrengthTest()
+        public void ExtractMilkTest()
         {
             Assert.Fail();
         }
