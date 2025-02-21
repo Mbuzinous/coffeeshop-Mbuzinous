@@ -51,6 +51,7 @@ namespace CoffeeShopConsoleAppNet60.Coffees.MilkCoffees.Test
 
             //Assert
             Assert.AreEqual(expected, result);
+
         }
     }
 }
