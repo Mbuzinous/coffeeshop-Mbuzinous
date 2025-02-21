@@ -2,7 +2,6 @@
 using CoffeeShopConsoleAppNet60.Coffees.MilkCoffees;
 using CoffeeShopConsoleAppNet60.Interfaces;
 using CoffeeShopConsoleAppNet60.Services;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace CoffeeShopConsoleAppNet60.CoffeeMachine
 {

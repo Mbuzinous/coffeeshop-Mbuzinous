@@ -1,6 +1,4 @@
-﻿using System.Xml.Linq;
-
-namespace CoffeeShopConsoleAppNet60
+﻿namespace CoffeeShopConsoleAppNet60
 {
     public abstract class Coffee
     {

@@ -1,5 +1,4 @@
-﻿using CoffeeShopConsoleAppNet60;
-using CoffeeShopConsoleAppNet60.CoffeeMachine;
+﻿using CoffeeShopConsoleAppNet60.CoffeeMachine;
 using CoffeeShopConsoleAppNet60.Model;
 using System.Security.Cryptography;
 
